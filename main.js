@@ -20,8 +20,13 @@ formEl.addEventListener('submit', function(e){
     const nomeValue = nomeFieldEl.value 
     const kilometriValue = kilometriFieldEl.value
     const ageValue = ageFieldEl.value
+
+    const numeroCarrozza = Math.floor(Math.random()* 9000)+1
+    const cod = Math.floor(Math.random()* 9000)+1
     
     nomeEl.innerHTML = nomeValue
+    carrozzaEl.innerHTML = numeroCarrozza
+    codiceEl.innerHTML = cod
     
 
 
