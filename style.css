@@ -4,35 +4,62 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(211, 42, 98);
+}
+
+
 form{
     display:flex;
     flex-direction: row;
     text-align: center;
     gap: 20px;
-    border: solid 1px;
+    border: transparent;
     padding: 2rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin: 5rem;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 0 10px 30px rgb(0, 0, 0.05);
 }
 
+input{
+    border: solid rgb(211, 42, 98);
+}
+select{
+     border: solid rgb(211, 42, 98);
+}
 button{
     padding-left: 2rem;
     padding-right: 2rem;
+    border-radius: 5px;
 }
 
 h1{
     text-align: center;
 }
 
+h2{
+    padding-left: 2.2rem;
+}
+
 table{
-    
-    justify-content: center;
-   border: solid 1px;
+    text-align: center;
+   border: transparent;
+   border-radius: 1rem;
    padding: 2rem;
    margin: 2rem;
+   background-color: white;
+   box-shadow: 0 10px 30px rgb(0, 0, 0.05);
+
 }
 
 th,td{
     padding-left: 20px; 
     
+}
+
+.ringraziamenti{
+    padding-left: 2.2rem;
 }
 
