@@ -25,14 +25,21 @@ form{
 
 input{
     border: solid rgb(211, 42, 98);
+    border-radius: 4px;
+    padding: 10px;
 }
 select{
      border: solid rgb(211, 42, 98);
+     border-radius: 4px;
+     padding: 10px;
 }
 button{
     padding-left: 2rem;
     padding-right: 2rem;
     border-radius: 5px;
+    border: solid rgb(211, 42, 98);
+    
+
 }
 
 h1{
@@ -41,6 +48,8 @@ h1{
 
 h2{
     padding-left: 2.2rem;
+    padding-left: 12rem;
+    padding-top: 4rem ;
 }
 
 table{
@@ -61,5 +70,13 @@ th,td{
 
 .ringraziamenti{
     padding-left: 2.2rem;
+    padding-top: 3.7rem;
+    font-size: 24px;
+    
+}
+
+.biglietto{
+    display: flex;
+    margin: 5rem;
 }
 
