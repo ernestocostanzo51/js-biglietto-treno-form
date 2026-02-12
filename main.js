@@ -1,19 +1,37 @@
-const nomeEl = document.getElementById("nome")
-const kilometriEl = document.getElementById("kilometri")
-const ageEl = document.getElementById("age")
-const buttonEl = document.querySelector("button")
-
+const nomeFieldEl = document.getElementById("nomeField")
+const kilometriFieldEl = document.getElementById("kilometriField")
+const ageFieldEl = document.getElementById("ageField")
 const formEl = document.querySelector("form")
 
 
 
+const nomeEl = document.getElementById("name")
+const carrozzaEl = document.getElementById("carrozza")
+const codiceEl = document.getElementById("codice")
+const prezzoEl = document.getElementById("prezzo")
+const kilometriEl = document.getElementById("kilometri")
+const ageEl = document.getElementById("age")
+
+
 formEl.addEventListener('submit', function(e){
     e.preventDefault()
-    console.log(nomeEl.value)
-    console.log(kilometriEl.value)
-    console.log(ageEl.value)
+
+
+    const nomeValue = nomeFieldEl.value 
+    const kilometriValue = kilometriFieldEl.value
+    const ageValue = ageFieldEl.value
+    
+    nomeEl.innerHTML = nomeValue
+    
+
+
+    
+
+
+
+    
 })
 
-console.log(nomeEl, nomeEl.value)
-console.log(kilometriEl, kilometriEl.value)
-console.log(ageEl, ageEl.value)
+
+
+
